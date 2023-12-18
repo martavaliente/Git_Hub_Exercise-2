@@ -1,1 +1,68 @@
-<h1>Add your code here</h1>
+<h1>https://git-scm.com/doc</h1>
+
+Cómo utilizar Git:
+
+Paso 1: instalar Git
+
+· Primero, necesitas instalar Git en tu máquina. Puede descargar Git desde el sitio web oficial: Descargas de Git.
+
+Paso 2: configurar Git
+· Antes de usar Git, es necesario configurar su nombre de usuario y dirección de correo electrónico.
+· Esto se utilizará para identificar sus contribuciones. Abre tu terminal (si estás en Windows, puedes usar Git Bash) y ejecuta los siguientes comandos:
+
+git config --global user.name "Su nombre"
+git config --global user.email "Su gmail"
+
+Paso 3: crear un repositorio
+
+· Un repositorio de Git es donde almacenará su código y realizará un seguimiento de los cambios. Puede crear uno nuevo o clonar un repositorio existente.
+· Para crear un nuevo repositorio, navegue hasta el directorio de su proyecto y ejecute:
+
+git init
+
+Paso 4: agregar y confirmar cambios
+
+· Agregue sus archivos al área de preparación usando el siguiente comando:
+
+git add filename
+
+· Para agregar todos los archivos modificados, puede usar:
+
+git add
+
+· Ahora, haz tu primer compromiso:
+
+git commit -m "Mensaje descriptivo del cambio"
+
+Paso 5: ver el historial de cambios
+· Puede ver el historial de cambios usando:
+
+git log
+
+· Este comando mostrará una lista de todas las confirmaciones en su repositorio.
+
+Paso 6: sucursales
+· Las ramas le permiten trabajar en funciones o corregir errores sin afectar la rama principal (generalmente llamada principal o maestra).
+· Para crear una nueva rama y cambiar a ella, puedes usar:
+
+git branch branch_name
+git checkout branch_name
+
+· O simplemente combine ambos comandos en uno:
+
+git checkout -b branch_name
+
+Paso 7: fusionar ramas
+· Cuando haya terminado de trabajar en una rama y desee incorporar los cambios en la rama principal, use el siguiente comando (asegúrese de estar en la rama que desea fusionar):
+
+git merge branch_name
+
+Paso 8: clonar un repositorio existente
+· Si desea contribuir a un proyecto existente, puede clonar un repositorio. Para hacer esto, use:
+
+git clone repository_url
+
+Paso 9: enviar cambios a un repositorio remoto
+· Si tiene un repositorio en GitHub (u otro servicio similar), puede enviar sus cambios usando:
+
+git push origin branch_name
